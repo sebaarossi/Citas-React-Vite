@@ -1,11 +1,15 @@
-import { useState } from 'react'
+//import { useState } from 'react'
+import Header from "./components/Header"
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
+
+
+ return (
     <>
-      <h1>Hola mundo</h1>
+      <Header />
+
+  
     </>
   )
 }
